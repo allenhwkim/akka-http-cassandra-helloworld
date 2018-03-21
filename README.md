@@ -24,7 +24,11 @@ cqlsh:test> select * from messages;
 ## Start App.
 ```
 $ ##### Tutorial Install/Run   #####
-$ git clone https://github.com/allenhwkim/akka-http-helloworld.git
-$ cd play-helloworld
-$ sbt run
+$ git clone https://github.com/allenhwkim/akka-http-cassandra-helloworld.git
+$ cd akka-http-cassandra-helloworld
+$ sbt compile run
+...[info] Compiling 1 Java source to /Users/allen.kim/akka-http-cassandra-helloworld/target/scala-2.11/classes...
+[success] Total time: 1 s, completed 21-Mar-2018 3:58:18 PM
+[info] Running HelloWorld
+Visit http://localhost:8080/cassandra, Type RETURN to exit...
 ```
