@@ -7,8 +7,10 @@
 *.vim
 *-shim.sbt
 .idea/
-/project/plugins/project
+project/plugins/project
 project/boot
+project/project
+project/targt
 target/
 /logs
 .cache
